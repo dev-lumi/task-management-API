@@ -1,17 +1,9 @@
 import express from 'express'
+import router from './routes/basicRoute.js';
 
 const app = express()
 
-app.get('/',(req,res)=>{
-    res.send("Task Management.")
-})
-
-app.get('/about',(req,res)=>{
-    res.send("About Page.")
-})
-app.get('/profile',(req,res)=>{
-    res.send("Profile Page.")
-})
+app.use('/',router)
 
 
 app.listen(3000,()=>console.log("server is running..."));
