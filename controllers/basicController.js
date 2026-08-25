@@ -1,7 +1,5 @@
 
 
-export  const createBasicData = (req,res)=>{
-    try{
-        const newBasicData = new 
-    }
+export const basicDisplay = async(req,res)=>{
+    res.send("Hello world.")
 }
