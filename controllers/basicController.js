@@ -5,7 +5,7 @@ export const basicDisplay = async(req,res)=>{
     res.send("Small change.")
 }
 export const basiCDisplay = async(req,res)=>{
-    res.send("Small change one more.")
+    res.send("Tiny change one more.")
 }
 export const aboutDisplay = async(req,res)=>{
     res.send("About.")
